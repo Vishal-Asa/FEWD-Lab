@@ -1,0 +1,189 @@
+<!--Add Styling to the portfolio page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-CSS</title>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #eaeaea;
+        color: #222;
+        line-height: 1.6;
+      }
+
+      header {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 25px 15px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        letter-spacing: 2px;
+      }
+
+      header p {
+        font-size: 1.3em;
+        opacity: 0.85;
+      }
+
+      /* Section Styles */
+      section {
+        background: white;
+        margin: 25px auto;
+        padding: 25px;
+        max-width: 850px;
+        border-radius: 10px;
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #333;
+        border-bottom: 3px solid #ccc;
+        padding-bottom: 8px;
+        margin-bottom: 18px;
+      }
+
+      ul, ol {
+        padding-left: 25px;
+      }
+
+      ul li, ol li {
+        margin-bottom: 12px;
+        font-size: 1.1em;
+      }
+
+      /* Links */
+      a {
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        color: #004494;
+      }
+
+      /* Contact Section */
+      section ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      section ul li {
+        padding: 10px 0;
+        font-size: 1.1em;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        body {
+          font-size: 15px;
+        }
+        header h1 {
+          font-size: 1.8em;
+        }
+        section {
+          padding: 15px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <header><h1>My Portfolio</h1></header>
+    <br>
+    <section id="si" class="'si">
+        <h2>Self Introduction: </h2>
+        
+        <p>My name is Vishal Asa. I am a Third Year Engineering student at Keshav Memorial Institute of Technology.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur voluptate, 
+            ab enim itaque porro eius atque vel neque numquam natus mollitia asperiores laborum illo magni 
+            tempore dignissimos soluta amet aut necessitatibus.</p>
+    </section>
+    <br>
+    <section id="skills" class="skills">
+        <h2>Skills: </h2>
+        
+        <ul>
+            <li><strong>Programming Languages: </strong>C/C++, Java, Python</li>
+            <li><strong>Skills: </strong>Computer Vision, Prompt Engineering, Large Language Models, Problem Solving, Web Development.</li>
+            <li><strong>Tools:</strong> Git, GitHub, Docker, Jenkins, Kubernetes, MongoDB, MySQL.</li>
+        </ul>
+    </section>
+    <br>
+    <section id="exp" class="exp">
+        <h2>Projects / Work Experience: </h2>
+        
+        <h3>Project 1: </h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, inventore?</li>
+            <a ef="https://githubbox.com/Vishal-Asa/SampleRepo">GitHub Link</a>
+        </ul>
+        <h3>Project 2: </h3>
+        
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, inventore?</li>
+            <a ef="https://githubbox.com/Vishal-Asa/seweb">GitHub Link</a>
+        </ul>
+        <h3>Project 3: </h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, inventore?</li>
+            <a ef="https://githubbox.com/Vishal-Asa/SE">GitHub Link</a>
+        </ul>
+    </section>
+    <br>
+    <section id="fb" class="fb">
+        <h2>Feedback / Achievements: </h2>
+        
+        <ol>
+            <li><strong>Certificate from SIH: </strong><br>Lorem ipsum dolor sit amet.</li>
+            <li><strong>Certificate from GSoC: </strong><br>Lorem ipsum dolor sit.</li>
+            <li><strong>Certificate from AWS: </strong><br>Lorem ipsum dolor sit amet consectetur.</li>
+        </ol>
+    </section>
+    <br>
+    <section id="edu" class="edu">
+        <h2>Education Profile: </h2>
+        
+        <section class="college" id="college">
+            <p><strong>Keshav Memorial Institute of Technology</strong> 2022-2026</p>
+            <p><i>Bachelors in Computer Science and Engineering <strong>GPA: 7.4/10</strong></i> Hyderabad, Telangana.</p>
+        </section>
+        <section class="jrclg" id="jrclg">
+            <p><strong>I-Class CDR Junior College</strong> 2020-2022</p>
+            <p><i>Intermediate (MPC) <strong>Percentage: 89.1%</strong></i> Hyderabad, Telangana.</p>
+        </section>
+        <section class="school" id="school">
+            <p><strong>The Hyderabad Public School, Begumpet</strong> 2010-2020</p>
+            <p><i>Indian Certificate of Secondary Education <strong>GPA: 8.6/10</strong></i> Hyderabad, Telangana.</p>
+        </section>
+    </section>
+    <br>
+    <section class="contact" id="contact">
+        <h2>Contact Information: </h2>
+        
+        <p><strong>Phone No: </strong> +919676371693</p>
+        <p><strong>Email: </strong><a ef="mailto:vishalasa1603@gmail.com"></a>vishalasa1603@gmail.com</p>
+        <p><strong>GitHub: </strong><a ef="www.githubbox.com/Vishal-Asa">GitHub Link</a></p>
+    </section>
+</body>
+</html>
